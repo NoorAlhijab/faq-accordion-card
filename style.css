@@ -19,6 +19,7 @@ section {
 }
 .container {
   max-width: 1120px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,7 +91,9 @@ p {
 /* Acoordion Box Styling */
 .accordion-box {
   height: 500px;
-  width: 700px;
+  /* width: 700px; */
+  width: 95%;
+  max-width: 700px;
   margin: 0 80px;
 }
 
@@ -169,7 +172,7 @@ p {
   }
 
   .accordion-box {
-    width: 580px;
+    /* max-width: 580px; */
     margin-top: 4rem;
     height: 440px;
   }
@@ -187,8 +190,8 @@ p {
   }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .accordion-box {
     width: 310px;
   }
-}
+} */
